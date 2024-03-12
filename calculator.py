@@ -13,14 +13,18 @@ while True:
     option = int(input("indicate the number of operation you want to perform:"))
 
     if option == 5:
+        print("CASIO OFF")
         break
     if option == 1:
         print("Result:", num1, "+" , num2, "=" , num1+num2)
     elif option == 2:
-        print("Result:", num1, "+" , num2, "=" , num1+num2)
+        print("Result:", num1, "-" , num2, "=" , num1-num2)
     elif option == 3:
-        print("Result:", num1, "+" , num2, "=" , num1+num2)
+        print("Result:", num1, "*" , num2, "=" , num1*num2)
     elif option == 4:
-        print("Result:", num1, "+" , num2, "=" , num1+num2)
+        if num2 != 0:
+            print("Result:", num1, "/", num2, "=", num1 / num2)
+        else:
+            print("Division by zero is not allowed")
     else:
         print("Invalid option")
