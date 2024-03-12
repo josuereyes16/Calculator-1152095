@@ -1,4 +1,3 @@
-  
 while True:
     print("Hello world, this calculator is code 1152095")
     num1 = float(input("Enter the first number: "))
@@ -15,6 +14,7 @@ while True:
     if option == 5:
         print("CASIO OFF")
         break
+    
     if option == 1:
         print("Result:", num1, "+" , num2, "=" , num1+num2)
     elif option == 2:
